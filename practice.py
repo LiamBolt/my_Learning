@@ -61,9 +61,12 @@ def main():
     greeting = get_greeting(hour)
     print(
         f"Good {greeting}, {name}! The day today is {current_date}, "
-        f"and the current time is {current_time}."
+        f"and the current time is {current_time}.!"
     )
 
 
 if __name__ == "__main__":
     main()
+
+
+    # new line here
